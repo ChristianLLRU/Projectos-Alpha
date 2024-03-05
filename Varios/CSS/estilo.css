@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0px;
+}
+
+.video-fondo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: visible;
+    z-index: -1;
+  }
+  
+  #AlonsoFondo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+header {
+    background: linear-gradient(rgb(50, 49, 49), rgb(0, 0, 0) );
+    color: hsl(46, 80%, 61%);
+    text-align: center;
+    padding: 20px 0;
+    max-height:
+    margin-bottom: 3%;
+}
+
+header h1 {
+    margin: 0;
+    font-family: Formula1;
+    text-shadow: 5px 7px 8px #000000;
+    font-size: 80px;
+}
+
+header h2 {
+    margin: 0;
+    font-family: Formula1;
+    text-shadow: 4px 5px 6px #000000;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 1.5%;
+    padding: 3px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 0px;
+    font-family: Formula2;
+    font-size: larger;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4b98cb;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.1s;
+}
+
+nav ul li a:hover {
+    transform: scale(1.15);
+    text-decoration: none;
+    color: #96c7e7;
+    font-weight: bold;
+}
+
+section {
+align-self: start;
+}
+
+.hero {
+    background-image: url('images/Fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: auto;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-description {
+    position: absolute;
+    left: 39%;
+    right: 39%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-container:hover .image-description {
+    opacity: 1;
+    visibility: visible;
+}
+
+.image-container img {
+    margin: 0.5%;
+    width: 100%; 
+    height: auto; 
+}
+
+form {
+    margin-top: 0px;
+}
+
+
+footer {
+    background-color: #3333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration:none;
+}
+
+footer {
+    background: linear-gradient(rgb(50, 49, 49), rgb(0, 0, 0) );
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Formula2;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+}
+.social-media a:hover {
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+@font-face {
+    font-family: 'Formula1';
+    src: url('fuentes/Formula1.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Formula2';
+    src: url('fuentes/Formula2.ttf') format('truetype');
+}
+
+.biografiatitulo {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Formula1;
+    margin-top: 3%;
+    margin-left: 3.3%;
+    margin-bottom: 2%;
+    text-shadow: 8px 8px 8px #000000;
+}
+
+.biografiatexto {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-right: 6%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    text-align: justify;
+    font-family: Formula2;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.biografiaimagen1 {
+    margin-top: 0;
+    margin-right: 70px;
+    
+}
+.biografiaimagen1 img {
+    width: 500px;
+    border-style: solid;
+    border-color: #ffffff;
+    box-shadow: 3px 15px 15px#000000;
+}
+
+.biografiacontenedor1 {
+    display: flex;
+}
+
+.carreratitulo {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Formula1;
+    margin-top: 3%;
+    margin-left: 3.3%;
+    margin-bottom: 2%;
+    text-shadow: 8px 8px 8px #000000;
+}
+
+.carreratexto {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-right: 6%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    text-align: justify;
+    font-family: Formula2;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.carreraimagen1 {
+    margin-top: 3%;
+    margin-right: 70px;
+}
+
+.carreraimagen1 img{
+    width: 500px;
+    border-style: solid;
+    border-color: #ffffff;
+    box-shadow: 3px 15px 15px#000000;
+}
+
+.carreracontenedor1 {
+    display: flex;
+}
+
+.logrostitulo {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Formula1;
+    margin-top: 3%;
+    margin-left: 3.3%;
+    margin-bottom: 2%;
+    text-shadow: 8px 8px 8px #000000;
+}
+
+.logrostexto {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-right: 6%;
+    margin-left: 4%;
+    margin-bottom: 100px;
+    text-align: justify;
+    font-family: Formula2;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.logrosimagen1 {
+    margin-top: 0;
+    margin-right: 70px;
+}
+
+.logrosimagen1 img{
+    width: 500px;
+    border-style: solid;
+    border-color: #ffffff;
+    box-shadow: 3px 15px 15px#000000;
+
+}
+
+.logroscontenedor1 {
+    display: flex;
+}

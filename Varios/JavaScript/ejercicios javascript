@@ -1,0 +1,104 @@
+// Definir Array
+let arrayConstructor = new Array();
+let arrayConElementos = new Array(1, 2, 3, 4, 5);
+
+// JSON
+let personas = [
+    {
+      "nombre": "Juan",
+      "edad": 25,
+      "ciudad": "Madrid"
+    },
+    {
+      "nombre": "María",
+      "edad": 30,
+      "ciudad": "Barcelona"
+    },
+    {
+      "nombre": "Pedro",
+      "edad": 22,
+      "ciudad": "Valencia"
+    }
+  ];
+
+  // Acceso a elementos del array
+  let frutas = ["manzana", "banana", "cereza", "dátil", "uva"];
+
+  console.log(frutas[0]); // Imprimirá "manzana"
+  console.log(frutas[2]); // Imprimirá "cereza"
+
+  frutas[1] = "naranja"; // Cambiará el segundo elemento a "naranja"
+
+console.log(frutas); // Imprimirá ["manzana", "naranja", "cereza", "dátil", "uva"]
+
+
+// Longitud Array
+let frutas = ["manzana", "banana", "cereza", "dátil", "uva"];
+console.log(frutas.length); // Imprimirá 5
+
+frutas.push("sandía"); // Agrega "sandía" al final del array
+console.log(frutas.length); // Imprimirá 6
+
+frutas.pop(); // Quita el último elemento del array ("sandía")
+console.log(frutas.length); // Imprimirá 5 nuevamente
+
+
+//Colocarse primer y último elemento
+let frutas = ["manzana", "banana", "cereza", "dátil", "uva"];
+let primerElemento = frutas[0];
+console.log(primerElemento); // Imprimirá "manzana"
+
+let ultimoElemento = frutas[frutas.length - 1];
+console.log(ultimoElemento); // Imprimirá "uva"
+
+
+// Array.forEach
+let frutas = ["manzana", "banana", "cereza", "dátil", "uva"];
+
+frutas.forEach(function(fruta) {
+  console.log(fruta);
+});
+
+
+
+//createElement
+// Crear un nuevo elemento li
+let liElement = document.createElement("li");
+
+// Asignar texto al elemento li
+liElement.textContent = "Nuevo elemento de lista";
+
+// Agregar el elemento li al DOM (a algún elemento existente)
+document.getElementById("miLista").appendChild(liElement);
+
+
+
+// createTextNode
+// Crear un nodo de texto
+let texto = document.createTextNode("Este es un nuevo párrafo.");
+
+// Crear un elemento p
+let parrafo = document.createElement("p");
+
+// Adjuntar el nodo de texto al elemento p
+parrafo.appendChild(texto);
+
+// Agregar el elemento p al DOM (a algún elemento existente)
+document.getElementById("miContenedor").appendChild(parrafo);
+
+
+
+//appendChild
+// Crear un nuevo elemento li
+let nuevoElementoLi = document.createElement("li");
+
+// Asignar texto al elemento li
+nuevoElementoLi.textContent = "Nuevo elemento de lista";
+
+// Obtener la referencia a la lista desordenada (ul) en el DOM
+let ulElemento = document.getElementById("miLista");
+
+// Agregar el elemento li como hijo de la lista desordenada
+ulElemento.appendChild(nuevoElementoLi);
+
+

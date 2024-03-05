@@ -1,0 +1,166 @@
+{
+    "LaLiga": {
+      "equipos": [
+        {
+          "nombre": "Real Madrid",
+          "ciudad": "Madrid",
+          "estadio": "Estadio Santiago Bernabéu",
+          "capacidad_estadio": 81044,
+          "entrenador": "Carlo Ancelotti",
+          "titulos_liga": 34
+        },
+        {
+          "nombre": "FC Barcelona",
+          "ciudad": "Barcelona",
+          "estadio": "Camp Nou",
+          "capacidad_estadio": 99354,
+          "entrenador": "Xavi Hernández",
+          "titulos_liga": 26
+        },
+        {
+          "nombre": "Atlético Madrid",
+          "ciudad": "Madrid",
+          "estadio": "Estadio Metropolitano",
+          "capacidad_estadio": 68456,
+          "entrenador": "Diego Simeone",
+          "titulos_liga": 11
+        },
+        {
+          "nombre": "Sevilla FC",
+          "ciudad": "Sevilla",
+          "estadio": "Estadio Ramón Sánchez-Pizjuán",
+          "capacidad_estadio": 43875,
+          "entrenador": "Julen Lopetegui",
+          "titulos_liga": 1
+        },
+        {
+          "nombre": "Real Sociedad",
+          "ciudad": "San Sebastián",
+          "estadio": "Estadio Anoeta",
+          "capacidad_estadio": 39915,
+          "entrenador": "Imanol Alguacil",
+          "titulos_liga": 2
+        },
+        {
+          "nombre": "Real Betis",
+          "ciudad": "Sevilla",
+          "estadio": "Estadio Benito Villamarín",
+          "capacidad_estadio": 60721,
+          "entrenador": "Manuel Pellegrini",
+          "titulos_liga": 1
+        },
+        {
+          "nombre": "Athletic Club",
+          "ciudad": "Bilbao",
+          "estadio": "Estadio San Mamés",
+          "capacidad_estadio": 53289,
+          "entrenador": "Marcelino García Toral",
+          "titulos_liga": 8
+        },
+        {
+          "nombre": "Valencia CF",
+          "ciudad": "Valencia",
+          "estadio": "Estadio Mestalla",
+          "capacidad_estadio": 55000,
+          "entrenador": "Javi Gracia",
+          "titulos_liga": 6
+        },
+        {
+          "nombre": "Villarreal CF",
+          "ciudad": "Villarreal",
+          "estadio": "Estadio de la Cerámica",
+          "capacidad_estadio": 23954,
+          "entrenador": "Unai Emery",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "Celta de Vigo",
+          "ciudad": "Vigo",
+          "estadio": "Estadio de Balaídos",
+          "capacidad_estadio": 29000,
+          "entrenador": "Eduardo Coudet",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "Granada CF",
+          "ciudad": "Granada",
+          "estadio": "Estadio Nuevo Los Cármenes",
+          "capacidad_estadio": 19500,
+          "entrenador": "Robert Moreno",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "RCD Mallorca",
+          "ciudad": "Palma de Mallorca",
+          "estadio": "Estadio de Son Moix",
+          "capacidad_estadio": 23142,
+          "entrenador": "Luis García Plaza",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "Levante UD",
+          "ciudad": "Valencia",
+          "estadio": "Estadio Ciudad de Valencia",
+          "capacidad_estadio": 25534,
+          "entrenador": "Paco López",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "CA Osasuna",
+          "ciudad": "Pamplona",
+          "estadio": "Estadio El Sadar",
+          "capacidad_estadio": 23815,
+          "entrenador": "Jagoba Arrasate",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "SD Eibar",
+          "ciudad": "Eibar",
+          "estadio": "Estadio Municipal de Ipurua",
+          "capacidad_estadio": 8917,
+          "entrenador": "Gaizka Garitano",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "Getafe CF",
+          "ciudad": "Getafe",
+          "estadio": "Coliseum Alfonso Pérez",
+          "capacidad_estadio": 17393,
+          "entrenador": "Míchel",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "Cadiz CF",
+          "ciudad": "Cádiz",
+          "estadio": "Estadio Ramón de Carranza",
+          "capacidad_estadio": 25000,
+          "entrenador": "Álvaro Cervera",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "Rayo Vallecano",
+          "ciudad": "Madrid",
+          "estadio": "Estadio de Vallecas",
+          "capacidad_estadio": 14418,
+          "entrenador": "Andoni Iraola",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "Elche CF",
+          "ciudad": "Elche",
+          "estadio": "Estadio Martínez Valero",
+          "capacidad_estadio": 33632,
+          "entrenador": "Jorge Almirón",
+          "titulos_liga": 0
+        },
+        {
+          "nombre": "RCD Espanyol",
+          "ciudad": "Barcelona",
+          "estadio": "Estadio Cornellá-El Prat",
+          "capacidad_estadio": 40500,
+          "entrenador": "Vicente Moreno",
+          "titulos_liga": 0
+        }
+      ]
+    }
+  }

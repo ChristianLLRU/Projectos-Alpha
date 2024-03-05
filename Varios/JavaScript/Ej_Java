@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array a HTML</title>
+</head>
+<body>
+  <ul id="frutasLista"></ul>
+
+  <input type="text" id="nuevaFruta" placeholder="Ingrese una nueva fruta">
+  <button onclick="agregarFruta()">Agregar</button>
+
+  <script src="Ej_Java.js"></script>
+</body>
+</html>
